@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Theater</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h1>Wild-Card Movie Theater & Orphange</h1>
+        <h3>Bad Movies, Bad Times, Bad Kids</h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Select Your Movie</h3>
+            </div>
+            <div class="panel-body">
+              <form id="movieinfo">
+                <div class="form-group">
+                  <label for="">Movie</label>
+                  <select class="form-control" id="movieName">
+                    <option value="Trolls2">Trolls II</option>
+                    <option value="Beethoven">Beethoven</option>
+                    <option value="WolfCop">WolfCop</option>
+                    <option value="TheRoom">The Room</option>
+                    <option value="ManWhoFellToEarth">Man Who Fell to Earth</option>
+                    <option value="TrailerParkOfTerror">Trailer Park of Terror</option>
+                    <option value="ZombieStrippers">Zombie Strippers</option>
+                    <option value="Caligula">Caligula</option>
+                    <option value="DeathBed">Death Bed: The Bed That Eats</option>
+                    <option value="Sharknado">Shaknado</option>
+                    <option value="ThanksKills">Thankskilling</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="">Age</label>
+                  <select class="form-control" id="age">
+                    <option value="12 and Under">Under 12</option>
+                    <option value="12 to 17">12-17</option>
+                    <option value="Over 18">18-60</option>
+                    <option value="Senior">60+</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="">Time</label>
+                  <select class="form-control" id="timeOfDay">
+                    <option value="6am">6am</option>
+                    <option value="4am">4am</option>
+                    <option value="9am">9am</option>
+                    <option value="2am">2am</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-success">PURCHASE</button>
+              </form>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-md-6">
+
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Ticket</h3>
+              </div>
+              <div class="panel-body">
+                <div id="result">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

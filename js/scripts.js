@@ -4,6 +4,7 @@ this.name = name;
 this.age = age;
 this.time = time;
 };
+
 var movieInput;
 var ageInput;
 var timeInput;

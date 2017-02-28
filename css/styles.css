@@ -1,20 +1,41 @@
 .jumbotron{
 	background-image: url(../img/theatre.jpg);
-	background-size: cover:
-	background-repeat: no-repeat;
-	min-height: 500px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	min-height: 300px;
 	color: #cc0044;
-	text-shadow: 1px 1px #996600;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	padding: 10%;
+	margin-top: 10px;
+}
+
+.panel {
+	min-height: 350px;
+	border-color: black;
+	background: #e0ddd5;
+}
+.panel-heading {
+	background-color: #cc0044!important;
+}
+#result {
 	text-align: center;
 }
-.panel {
-	min-height: 600px;
+#carousel-example-generic {
+	width: 80%;
+	display: block;
+	margin: auto;
 }
+
 body{
-	background-color: black;
+	background-color: #1b2535;
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: top;
-	padding-bottom: 500px;
-
+}
+.carouselrow {
+	margin-bottom: 40px;
+}
+.carousel-caption {
+	padding-bottom: 200px;
 }

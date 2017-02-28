@@ -16,7 +16,10 @@ Movie.prototype.Ticket = function() {
 	}else{
 		price = "$50"
 	};
-	$("#result").html("Movie Name: " + movieInput +"<br>"+ " Age Range: " + ageInput + "<br>"+" Time of Day: " + timeInput + "<br>"+" Your ticket price is " + price);
+	$("#resultMovie").text(movieInput);
+	$("#resultAge").text("Age Range: " + ageInput );
+	$("#resultTime").text("Showtime: " + timeInput );
+	$("#resultPrice").text("Ticket Price: " + price);
 };
 $(function(){
 

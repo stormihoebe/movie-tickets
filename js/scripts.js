@@ -13,8 +13,11 @@ var price;
 Movie.prototype.Ticket = function() {
 	if (ageInput === "Senior"){
 		price = "$30"
-	}else{
-		price = "$50"
+	}else if (ageInput === "12 and Under"){
+		price = "$20"
+	}	else if (timeInput === "4 am"){
+		price = "$40"
+	}else {price = "$50"
 	};
 	$("#resultMovie").text(movieInput);
 	$("#resultAge").text("Age Range: " + ageInput );
